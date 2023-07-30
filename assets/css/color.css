@@ -1,5 +1,10 @@
 :root {
     --primary: #65AAFF;
+    --on-primary: #FFFFFF;
+
+    -label-aa: #000000;
+
+    --background: #FFFFFF;
 }
 
 /* html[data-theme='light'] {

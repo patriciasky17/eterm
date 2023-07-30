@@ -11,7 +11,7 @@ body {
 
 .button-primary {
     background-color: var(--primary);
-    color: #FFFFFF;
+    color: var(--on-primary);
     border-radius: 0.5rem;
     padding: 0.75rem 1.75rem;
     font-size: 1rem;
@@ -23,7 +23,7 @@ body {
 }
 
 .button-secondary {
-    background-color: #FFFFFF;
+    background-color: var(--on-primary);
     color: var(--primary);
     border: var(--primary) 1px solid;
     border-radius: 0.5rem;
@@ -33,5 +33,17 @@ body {
     line-height: 1.5rem;
     text-align: center;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#header{
+    width: 100%;
+    background-color: none;
+    transition: all 0.2s ease-in-out;
+}
+
+#header.header-scrolled {
+    background-color: var(--background);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 34, 255, 0.1);
     transition: all 0.2s ease-in-out;
 }
