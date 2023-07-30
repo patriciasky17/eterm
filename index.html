@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind Stuff  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- Google Font: DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/color.css">
+    <title>Eterm</title>
+</head>
+
+<body>
+    <nav class="relative max-w-[1920px] z-10 bg-transparent">
+        <div class="fixed z-10 top-0 mx-auto w-full max-w-[1920px]">
+            <div class="flex justify-between items-center py-5 px-20">
+                <div class="logo-eterm">
+                    <a href="#"><img src="./assets/svg/eterm.svg" alt="Logo Eterm" class="logo-navbar w-24"></a>
+                </div>
+                <div class="navbar">
+                    <ol class="flex gap-8">
+                        <a href="#"><li class="navbar-item">Home</li></a>
+                        <a href="#"><li class="navbar-item">About</li></a>
+                        <a href="#"><li class="navbar-item">Products</li></a>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="relative pt-8 px-20 grid grid-cols-12">
+        <div class="hero-text-and-button hero-order relative z-10 col-span-6 flex flex-col justify-center gap-10">
+            <div class="hero-text flex flex-col gap-5">
+                <h1 class="text-h1 font-bold tracking-wide">Discover the Finest Products for your AC!</h1>
+                <p class="text-p leading-9">Unmatched comfort and performance. Premium AC products for elevated indoor environments.</p>
+            </div>
+            <div class="hero-button flex gap-5">
+                <a href="#" class="button-primary">View all products</a>
+                <a href="#" class="button-secondary">Learn more</a>
+            </div>
+        </div>
+
+        <div class="relative hero-image hero-order -z-1 col-span-6 flex items-center justify-end">
+            <img src="./assets/svg/hero-image-two-person.svg" alt="">
+        </div>
+
+        <div class="hero-image-background absolute top-0 right-0 -z-10">
+            <svg width="1160" height="1160" viewBox="0 0 1160 1160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="532.59" y="300.95" width="830.134" height="830.134" rx="30" transform="rotate(-35.8167 0.591187 485.948)" fill="#E8F2FF"/>
+            </svg>
+        </div>
+
+        
+    </section>
+
+
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                },
+                fontSize: {
+                    'h1': '3rem',
+                    'h2': '2.25rem',
+                    'h3': '1.5rem',
+                    'p': '1.25rem',
+                },
+            }
+        }
+    </script>
+
+    <script src="./tailwind.config.js"></script>
+
+
+</body>
+
+</html>
