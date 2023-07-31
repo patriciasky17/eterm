@@ -16,6 +16,9 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
         rel="stylesheet">
 
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/color.css">
@@ -25,12 +28,12 @@
 <body>
     <header class="relative max-w-[1920px] z-50 bg-transparent">
         <div id="header" class="fixed z-50 top-0 mx-auto w-full max-w-[1920px]">
-            <nav class="flex justify-between items-center py-5 px-20">
+            <nav class="flex justify-between items-center py-5 md:px-20 px-16">
                 <div class="logo-eterm">
                     <a href="#"><img src="./assets/svg/eterm.svg" alt="Logo Eterm" class="logo-navbar w-24"></a>
                 </div>
                 <div class="navbar">
-                    <ol class="flex gap-8">
+                    <ol class="flex md:gap-8 gap-4">
                         <a href="#"><li class="navbar-item">Home</li></a>
                         <a href="#"><li class="navbar-item">About</li></a>
                         <a href="#"><li class="navbar-item">Products</li></a>
@@ -40,19 +43,19 @@
         </div>
     </header>
 
-    <section id="hero" class="relative pt-8 px-20 grid grid-cols-12">
-        <div class="hero-text-and-button hero-order relative z-10 col-span-6 flex flex-col justify-center gap-10">
-            <div class="hero-text flex flex-col gap-5">
+    <section id="hero" class="relative md:pt-8 pt-28 md:px-20 px-16 grid grid-cols-12">
+        <div class="hero-text-and-button hero-order relative z-10 lg:col-span-6 md:col-span-7 col-span-12 flex flex-col justify-center gap-10">
+            <div class="hero-text flex flex-col gap-5 md:text-left text-center">
                 <h1 class="text-h1 font-bold tracking-wide">Discover the Finest Products for your AC!</h1>
                 <p class="text-p leading-9">Unmatched comfort and performance. Premium AC products for elevated indoor environments.</p>
             </div>
-            <div class="hero-button flex gap-5">
+            <div class="hero-button flex gap-5 md:justify-start justify-center">
                 <a href="#" class="button-primary">View all products</a>
                 <a href="#" class="button-secondary">Learn more</a>
             </div>
         </div>
 
-        <div class="relative hero-image hero-order -z-1 col-span-6 flex items-center justify-end">
+        <div class="relative hero-image hero-order -z-1 lg:col-span-6 md:col-span-5 col-span-12 flex items-center md:justify-end justify-center">
             <img src="./assets/svg/hero-image-two-person.svg" alt="">
         </div>
 
@@ -61,11 +64,101 @@
                 <rect x="532.59" y="300.95" width="830.134" height="830.134" rx="30" transform="rotate(-35.8167 0.591187 485.948)" fill="#E8F2FF"/>
             </svg>
         </div>
-
-        
     </section>
 
+    <section id="why-choose-eterm" class="pt-20 md:px-20 px-16 flex flex-col gap-12">
+        <div class="title-and-desc text-center flex flex-col gap-5">
+            <h2 class="text-h2 font-bold">Why Choose Eterm</h2>
+            <p class="text-p">As a customer, we know that you want the best products with an affordable price</p>
+        </div>
 
+        <div class="grid grid-cols-12 gap-4">
+            <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
+                <div class="title-and-icon flex gap-5 items-center">
+                    <span class="material-icons-round text-h1">assignment_turned_in</span>
+                    <h3 class="text-h3 font-semibold">Produk Tepat Guna</h3>
+                </div>
+
+                <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl mi, porttitor vehicula ligula nec, luctus commodo diam. </p>
+            </div>
+
+            <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
+                <div class="title-and-icon flex gap-5 items-center">
+                    <span class="material-icons-round text-h1">verified</span>
+                    <h3 class="text-h3 font-semibold">Kualitas Terjamin</h3>
+                </div>
+
+                <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl mi, porttitor vehicula ligula nec, luctus commodo diam. </p>
+            </div>
+
+            <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
+                <div class="title-and-icon flex gap-5 items-center">
+                    <span class="material-icons-round text-h1">request_quote</span>
+                    <h3 class="text-h3 font-semibold">Harga Terjangkau</h3>
+                </div>
+
+                <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl mi, porttitor vehicula ligula nec, luctus commodo diam. </p>
+            </div>
+
+            <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
+                <div class="title-and-icon flex gap-5 items-center">
+                    <span class="material-icons-round text-h1">tips_and_updates</span>
+                    <h3 class="text-h3 font-semibold">Desain dan Bentuk Terkini</h3>
+                </div>
+
+                <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl mi, porttitor vehicula ligula nec, luctus commodo diam. </p>
+            </div>
+
+            <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
+                <div class="title-and-icon flex gap-5 items-center">
+                    <span class="material-icons-round text-h1">thumb_up</span>
+                    <h3 class="text-h3 font-semibold">Dapat Diandalkan</h3>
+                </div>
+
+                <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl mi, porttitor vehicula ligula nec, luctus commodo diam. </p>
+            </div>
+
+            <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
+                <div class="title-and-icon flex gap-5 items-center">
+                    <span class="material-icons-round text-h1">verified_user</span>
+                    <h3 class="text-h3 font-semibold">Mudah Digunakan</h3>
+                </div>
+
+                <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl mi, porttitor vehicula ligula nec, luctus commodo diam. </p>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <section id="best-products" class="pt-20 md:px-20 px-16 flex flex-col gap-12">
+        <div class="title-and-desc text-center flex flex-col gap-5">
+            <h2 class="text-h2 font-bold">Our Best Products</h2>
+            <p class="text-p">We have a lot of products, but this is the best seller!</p>
+        </div>
+
+        <div class="grid grid-cols-12 gap-4">
+            <div class="relative md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
+                <div class="title-and-icon flex gap-5 items-center">
+                    <span class="material-icons-round text-h1">assignment_turned_in</span>
+                    <h3 class="text-h3 font-semibold">Produk Tepat Guna</h3>
+                </div>
+
+                <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl mi, porttitor vehicula ligula nec, luctus commodo diam. </p>
+
+                <div class="absolute -top-10 -left-7">
+                    <img src="./assets/svg/crown.svg" class="w-20" alt="Crown">
+                </div>
+            </div>
+
+            
+
+            
+            
+
+            
+        </div>
+    </section>
 
 
     <script>
