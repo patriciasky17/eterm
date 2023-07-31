@@ -53,6 +53,20 @@ body {
     color: var(--primary);
 }
 
+.badge-primary {
+    background-color: var(--primary-lighter);
+    color: var(--primary-darker);
+    padding: 0.25rem 1rem;
+    border-radius: 2rem;
+}
+
+.badge-best-seller {
+    background-color: var(--yellow-background-badge);
+    color: var(--yellow-text-badge);
+    padding: 0.25rem 1rem;
+    border-radius: 2rem;
+}
+
 @media screen and (max-width: 1024px) {
     html {
         font-size: 12px;
@@ -63,4 +77,108 @@ body {
     html {
         font-size: 10px;
     }
+}
+
+/* Accordion */
+
+#faq > .accordion-body > .accordion {
+    color: black;
+    background-color: white;
+}
+
+#faq > .accordion-body > .accordion > .container {
+    position: relative;
+    padding: 10px;
+}
+
+#faq > .accordion-body > .accordion > .container > .label {
+    position: relative;
+    padding: 10px 30px 10px 0px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+#faq > .accordion-body > .accordion > .container > .label::before {
+    content: '+';
+    color: var(--text-color);
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+
+#faq > .accordion-body > .accordion > .container > .content {
+    position: relative;
+    display: none;
+    padding: 10px 0;
+    text-align: justify;
+    overflow: hidden;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#faq > .accordion-body > .accordion > hr {
+    width: 100;
+    margin-left: 0;
+    border: 1px solid var(--border-color);
+    opacity: 0.4;
+}
+
+#faq > .accordion-body > .accordion > .container.active .content {
+    display: block;
+    animation-name: fadeOut;
+    animation-duration: 0.5s;
+}
+
+#faq > .accordion-body > .accordion > .container.active .label::before {
+    content: '-';
+    font-size: 1.5rem;
+}
+
+footer .social-media a {
+    background-color: var(--primary);
+    padding: 4px 12px;
+    border-radius: 50%;
+    color: var(--background);
+    font-size: 28px;
+    transition: all 0.2s ease-in-out;
+}
+
+footer .social-media a .fa-solid{
+    padding: 0 2px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    #faq > h2.faq-title {
+        font-size: 30px;
+        line-height: 56px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #faq > h2.faq-title {
+        font-size: 24px;
+        line-height: 48px;
+    }   
 }

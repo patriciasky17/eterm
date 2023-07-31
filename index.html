@@ -19,6 +19,9 @@
     <!-- Google Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/07ceae913b.js" crossorigin="anonymous"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/color.css">
@@ -68,14 +71,14 @@
 
     <section id="why-choose-eterm" class="pt-20 md:px-20 px-16 flex flex-col gap-12">
         <div class="title-and-desc text-center flex flex-col gap-5">
-            <h2 class="text-h2 font-bold">Why Choose Eterm</h2>
+            <h2 class="text-h2 font-bold leading-9">Why Choose Eterm</h2>
             <p class="text-p">As a customer, we know that you want the best products with an affordable price</p>
         </div>
 
         <div class="grid grid-cols-12 gap-4">
             <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
                 <div class="title-and-icon flex gap-5 items-center">
-                    <span class="material-icons-round text-h1">assignment_turned_in</span>
+                    <i class="material-icons-round text-h1">assignment_turned_in</i>
                     <h3 class="text-h3 font-semibold">Produk Tepat Guna</h3>
                 </div>
 
@@ -84,7 +87,7 @@
 
             <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
                 <div class="title-and-icon flex gap-5 items-center">
-                    <span class="material-icons-round text-h1">verified</span>
+                    <i class="material-icons-round text-h1">verified</i>
                     <h3 class="text-h3 font-semibold">Kualitas Terjamin</h3>
                 </div>
 
@@ -93,7 +96,7 @@
 
             <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
                 <div class="title-and-icon flex gap-5 items-center">
-                    <span class="material-icons-round text-h1">request_quote</span>
+                    <i class="material-icons-round text-h1">request_quote</i>
                     <h3 class="text-h3 font-semibold">Harga Terjangkau</h3>
                 </div>
 
@@ -102,7 +105,7 @@
 
             <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
                 <div class="title-and-icon flex gap-5 items-center">
-                    <span class="material-icons-round text-h1">tips_and_updates</span>
+                    <i class="material-icons-round text-h1">tips_and_updates</i>
                     <h3 class="text-h3 font-semibold">Desain dan Bentuk Terkini</h3>
                 </div>
 
@@ -111,7 +114,7 @@
 
             <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
                 <div class="title-and-icon flex gap-5 items-center">
-                    <span class="material-icons-round text-h1">thumb_up</span>
+                    <i class="material-icons-round text-h1">thumb_up</i>
                     <h3 class="text-h3 font-semibold">Dapat Diandalkan</h3>
                 </div>
 
@@ -120,7 +123,7 @@
 
             <div class="md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
                 <div class="title-and-icon flex gap-5 items-center">
-                    <span class="material-icons-round text-h1">verified_user</span>
+                    <i class="material-icons-round text-h1">verified_user</i>
                     <h3 class="text-h3 font-semibold">Mudah Digunakan</h3>
                 </div>
 
@@ -133,32 +136,141 @@
 
     <section id="best-products" class="pt-20 md:px-20 px-16 flex flex-col gap-12">
         <div class="title-and-desc text-center flex flex-col gap-5">
-            <h2 class="text-h2 font-bold">Our Best Products</h2>
+            <h2 class="text-h2 font-bold leading-9">Our Best Products</h2>
             <p class="text-p">We have a lot of products, but this is the best seller!</p>
         </div>
 
-        <div class="grid grid-cols-12 gap-4">
-            <div class="relative md:col-span-4 sm:col-span-6 col-span-12 flex flex-col gap-4 p-10 border rounded-lg">
-                <div class="title-and-icon flex gap-5 items-center">
-                    <span class="material-icons-round text-h1">assignment_turned_in</span>
-                    <h3 class="text-h3 font-semibold">Produk Tepat Guna</h3>
+        <div class="grid grid-cols-12 md:gap-4 gap-10">
+            <a href="#" class="relative md:col-span-4 col-span-12 flex flex-col gap-4 border rounded-lg">
+                <div class="rounded-t-lg overflow-hidden h-[240px] max-h-[240px] min-h-[240px] object-fill">
+                    <img src="./assets/img/AirReflector.jpg" class="w-full h-full object-cover" alt="">
                 </div>
 
-                <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl mi, porttitor vehicula ligula nec, luctus commodo diam. </p>
+                <div class="px-5 py-2">
+                    <div class="categories flex gap-2">
+                        <span class="badge-best-seller text-subtitle font-medium">Best Seller</span>
+                        <span class="badge-primary text-subtitle font-medium">Bracket</span>
+                    </div>
+                    <h3 class="text-h3 font-semibold py-3">Bracket AC Type Mini</h3>
+                </div>
+                
 
                 <div class="absolute -top-10 -left-7">
                     <img src="./assets/svg/crown.svg" class="w-20" alt="Crown">
                 </div>
-            </div>
+            </a>
 
-            
+            <a href="#" class="relative md:col-span-4 col-span-12 flex flex-col gap-4 border rounded-lg">
+                <div class="rounded-t-lg overflow-hidden h-[240px] max-h-[240px] min-h-[240px] object-fill">
+                    <img src="./assets/img/AirReflector.jpg" class="w-full h-full object-cover" alt="">
+                </div>
 
-            
-            
+                <div class="px-5 py-2">
+                    <div class="categories flex gap-2">
+                        <span class="badge-best-seller text-subtitle font-medium">Best Seller</span>
+                        <span class="badge-primary text-subtitle font-medium">Bracket</span>
+                    </div>
+                    <h3 class="text-h3 font-semibold py-3">Bracket AC Type Mini</h3>
+                </div>
+                
 
-            
+                <div class="absolute -top-10 -left-7">
+                    <img src="./assets/svg/crown.svg" class="w-20" alt="Crown">
+                </div>
+            </a>
+
+            <a href="#" class="relative md:col-span-4 col-span-12 flex flex-col gap-4 border rounded-lg">
+                <div class="rounded-t-lg overflow-hidden h-[240px] max-h-[240px] min-h-[240px] object-fill">
+                    <img src="./assets/img/AirReflector1.jpg" class="w-full h-full object-cover" alt="">
+                </div>
+
+                <div class="px-5 py-2">
+                    <div class="categories flex gap-2">
+                        <span class="badge-best-seller text-subtitle font-medium">Best Seller</span>
+                        <span class="badge-primary text-subtitle font-medium">Bracket</span>
+                    </div>
+                    <h3 class="text-h3 font-semibold py-3">Bracket AC Type Mini</h3>
+                </div>
+                
+
+                <div class="absolute -top-10 -left-7">
+                    <img src="./assets/svg/crown.svg" class="w-20" alt="Crown">
+                </div>
+            </a>
+        </div>
+
+        <div class="button-only flex justify-center">
+            <a href="#" class="button-primary">View all products</a>
         </div>
     </section>
+
+    <section id="faq" class="pt-20 md:px-20 px-16 flex flex-col gap-8">
+        <div class="title-and-desc text-center flex flex-col gap-5">
+            <h2 class="text-h2 font-bold leading-9">Frequently Asked Questions</h2>
+            <p class="text-p">Some of you maybe got confused, so here we provide the answer for the most asked questions!</p>
+        </div>
+
+        <div class="accordion-body">
+            <div class="accordion">
+                <div class="container">
+                    <h3 class="label text-p">Apakah Bracket Type Mini 1.0 memiliki kualitas yang rendah dibandingkan dengan tipe bracket lainnya?</h3>
+                    <p class="content text-normal">Bracket Mini didesain untuk AC 1/2PK sampai 1PK, sehingga untuk AC 1PK bisa diaplikasikan
+                        dengan bracket tersebut.</p>
+                </div>
+                <hr>
+                <div class="container">
+                    <h3 class="label text-p">Apakah Bracket Mini bisa dipasang untuk AC 1PK?</h3>
+                    <p class="content text-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique qui culpa voluptate at
+                        cumque ipsam delectus optio dolore recusandae omnis, dicta alias. Aspernatur velit minus ea nemo voluptatem, ipsa
+                        nulla dolorem sint, ad eaque consequatur amet modi incidunt, ipsum provident. Possimus voluptatem quod harum ipsam
+                        ut ullam expedita ducimus ipsum accusantium commodi, incidunt suscipit non adipisci? Quos perferendis quam ratione
+                        laboriosam eos ipsam cum, est iure amet a nostrum ducimus possimus quasi tempore sint eveniet corrupti rerum
+                        maiores! Dignissimos iusto necessitatibus ipsam nemo officiis aliquid consequatur beatae deleniti nesciunt, quisquam
+                        accusamus porro mollitia numquam distinctio, magni quidem, maiores rem vitae excepturi veritatis tenetur? Vitae
+                        corrupti impedit accusamus rem nam, ipsum maxime ex. Delectus corrupti non obcaecati voluptate vitae sunt fugiat
+                        provident labore eum totam consequuntur exercitationem nobis sequi quia explicabo modi voluptas perferendis, ratione
+                        laboriosam! Magni ex laborum explicabo. Accusantium quam incidunt deleniti adipisci sunt consequuntur quo magnam
+                        iure quae!</p>
+                </div>
+                <hr>
+                <div class="container">
+                    <h3 class="label text-p">Bagaimana cara memesan produk - produk Eterm?</h3>
+                    <p class="content text-normal">Bisa melalui kontak WA kami di <a href="wa.me/62818958768" class="text-primary font-semibold">(+62) 818-958-768</a>, namun produk ini juga bisa dipesan melalui distributor kami atau toko sparepart AC terdekat anda.</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <footer class="relative px-20 py-10 mt-10 overflow-hidden">
+        <div class="grid grid-cols-12 gap-5 md:text-left text-center">
+            <div class="md:col-span-6 col-span-12 flex flex-col gap-5">
+                <div class="logo-eterm flex md:justify-start justify-center">
+                    <img src="./assets/svg/eterm.svg" alt="Logo Eterm" class="logo-navbar w-32">
+                </div>
+                <address class="text-p not-italic">
+                    Jl. Moh. Toha KM. 5, Ruko Taman Elang Blok A No. 19, Kel. Periuk, Kec. Periuk, Kota Tangerang, Banten, 15131
+                </address>
+                <p class="text-p font-semibold">© Promaxi Coolant Indonesia 2023 </p>
+            </div>
+
+            <div class="md:col-span-6 col-span-12 flex flex-col gap-3">
+                <p class="text-p font-semibold">Contact Us</p>
+                <div class="social-media flex gap-3 md:justify-start justify-center">
+                    <a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="phone"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="absolute top-0 -right-28 -z-10">
+            <svg width="775" height="501" viewBox="0 0 775 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="356" y="175.558" width="300" height="300" rx="30" transform="rotate(-35.8167 356 175.558)" fill="#E8F2FF"/>
+                <rect y="257.558" width="300" height="300" rx="30" transform="rotate(-35.8167 0 257.558)" fill="#E8F2FF"/>
+            </svg> 
+        </div>
+
+    </footer>
 
 
     <script>
@@ -167,6 +279,7 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        primary: '#65AAFF',
                     }
                 },
                 fontSize: {
@@ -174,6 +287,8 @@
                     'h2': '2.25rem',
                     'h3': '1.5rem',
                     'p': '1.25rem',
+                    'normal': '1rem',
+                    'subtitle': '0.875rem',
                 },
             }
         }
