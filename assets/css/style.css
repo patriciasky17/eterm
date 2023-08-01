@@ -199,3 +199,23 @@ footer .social-media a .fa-solid{
         line-height: 48px;
     }   
 }
+
+
+/* About Us Page */
+.background-section-order:nth-child(3) {
+    order: 3;
+}
+
+.background-section-order:nth-child(4) {
+    order: 4;
+}
+
+@media screen and (max-width: 768px) {
+    .background-section-order:nth-child(3) {
+        order: 4;
+    }
+    
+    .background-section-order:nth-child(4) {
+        order: 3;
+    }
+}
