@@ -10,6 +10,23 @@ body {
     max-width: 1920px;
 }
 
+.navbar-item {
+    color: var(--label-aa);
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-item.active {
+    color: var(--primary);
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-item:hover {
+    color: var(--primary);
+    transition: all 0.2s ease-in-out;
+}
+
 .button-primary {
     background-color: var(--primary);
     color: var(--on-primary);
