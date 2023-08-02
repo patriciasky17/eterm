@@ -219,3 +219,43 @@ footer .social-media a .fa-solid{
         order: 3;
     }
 }
+
+
+/* Products Page */
+.products-filter-button {
+    background-color: transparent;
+    color: var(--label-aa);
+    border-radius: 30px;
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.products-filter-button:hover {
+    background-color: var(--primary-lighter);
+    transition: all 0.2s ease-in-out;
+}
+
+.products-filter-button.is-checked,
+.products-filter-button:active {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    border: var(--primary) 1px solid;
+    transition: all 0.2s ease-in-out;
+}
+
+.grid-products {
+    height: auto !important;
+}
+
+.grid-products .product-item {
+    position: relative !important;
+    height: fit-content !important;
+    left: auto !important;
+    top: auto !important;
+}
