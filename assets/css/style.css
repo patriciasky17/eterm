@@ -259,3 +259,8 @@ footer .social-media a .fa-solid{
     left: auto !important;
     top: auto !important;
 }
+
+/* Detail Products */
+.breadcrumbs {
+    background-color: var(--primary-lightest);
+}
