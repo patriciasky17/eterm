@@ -7,7 +7,12 @@
         "category": "Bracket",
         "type_class": "bracket",
         "description": "Bracket AC Type Mini 1.0 mm adalah penyangga mesin outdoor AC dari ½ pk Sampai 1 pk dengan ketebalan Bahan 1.0mm, ukuran optimal untuk semua merek AC",
-        "note": "Untuk outdoor AC 1/2 pk sampai 1 pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating<br><br>Terdapat 28 set per dus untuk Bracket AC Type Mini 1.0 mm",
+        "notes": [
+            "Untuk outdoor AC 1/2 pk sampai 1 pk", 
+            "Sudah dilengkapi dengan dynabolt set", 
+            "Cat finishing powder coating", 
+            "Terdapat 28 set per dus untuk Bracket AC Type Mini 1.0 mm"
+        ],
         "benefits": [
             "Simple (tidak membutuhkan tempat yang luas dalam memasang unit outdoor)",
             "Sangat kuat karena menggunakan material spesial, kadar baja yang tinggi, konstruksi yang terbaru double bone ,menghasilkan produk yang sangat spesial dalam menyangga outdoor unit",
@@ -21,8 +26,10 @@
             "../assets/img/Bracket/Mini/Bracket-Mini-2.jpg",
             "../assets/img/Bracket/Mini/Bracket-Mini-3.jpg",
             "../assets/img/Bracket/Mini/Bracket-Mini-4.jpg",
-            "../assets/img/Bracket/Mini/Bracket-Mini-5.jpg"
-        ]
+            "../assets/img/Bracket/Mini/Bracket-Mini-5.jpg",
+            "../assets/img/Bracket/Mini/Bracket-Mini-Measurement.png"
+        ],
+        "isBestSeller": true
     },
     {
         "id": 2,
@@ -32,7 +39,7 @@
         "category": "Bracket",
         "type_class": "bracket",
         "description": "Bracket AC Type STD 1.2 mm adalah penyangga mesin outdoor AC yang dibuat oleh Eterm dari ½ pk sampai 1 pk dengan ketebalan bahan 1.2mm",
-        "note": "Untuk outdoor AC 1/2 pk sampai 1 pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating<br><br>Terdapat 26 set per dus untuk Bracket AC Type STD 1.2 mm",
+        "notes": "Untuk outdoor AC 1/2 pk sampai 1 pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating<br><br>Terdapat 26 set per dus untuk Bracket AC Type STD 1.2 mm",
         "benefits": [
             "Presisi tinggi (meminimalisir getaran mesin)",
             "Memudahkan dalam pemasangan",
@@ -41,8 +48,10 @@
         ],
         "images": [
             "../assets/img/Bracket/STD/12mm/Bracket-STD-12-1.jpg",
-            "../assets/img/Bracket/STD/12mm/Bracket-STD-12-2.jpg"
-        ]
+            "../assets/img/Bracket/STD/12mm/Bracket-STD-12-2.jpg",
+            "../assets/img/Bracket/STD/12mm/Bracket-STD-12-Measurement.png"
+        ],
+        "isBestSeller": false
     },
     {
         "id": 3,
@@ -52,7 +61,12 @@
         "category": "Bracket",
         "type_class": "bracket",
         "description": "Bracket AC Type STD 1.4 mm adalah penyangga mesin outdoor AC dari ½ pk sampai 1 pk dengan ketebalan bahan 1.4mm / 1.5mm",
-        "note": "Untuk outdoor AC 1/2 pk sampai 1.5 pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating<br><br>Terdapat 26 set per dus untuk Bracket AC Type STD 1.4 mm",
+        "notes": [
+            "Untuk outdoor AC 1/2 pk sampai 1.5 pk", 
+            "Sudah dilengkapi dengan dynabolt set", 
+            "Cat finishing powder coating", 
+            "Terdapat 26 set per dus untuk Bracket AC Type STD 1.4 mm"
+        ],
         "benefits": [
             "Presisi tinggi (meminimalisir getaran mesin)",
             "Memudahkan dalam pemasangan",
@@ -61,8 +75,10 @@
         ],
         "images": [
             "../assets/img/Bracket/STD/14mm/Bracket-STD-14-1.jpg",
-            "../assets/img/Bracket/STD/14mm/Bracket-STD-14-2.jpg"
-        ]
+            "../assets/img/Bracket/STD/14mm/Bracket-STD-14-2.jpg",
+            "../assets/img/Bracket/STD/14mm/Bracket-STD-14-Measurement.png"
+        ],
+        "isBestSeller": false
     },
     {
         "id": 4,
@@ -72,7 +88,11 @@
         "category": "Bracket",
         "type_class": "bracket",
         "description": "Bracket AC Type STD 1.8 mm adalah penyangga mesin outdoor AC dari ½ pk sampai 1 pk dengan ketebalan bahan 1.8mm / 2.0mm",
-        "note": "Maksimal pemasangan untuk AC 1/2 pk sampai 2 pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating<br><br>Terdapat 24 set per dus untuk Bracket AC Type STD 1.8 m",
+        "notes": [
+            "Maksimal pemasangan untuk AC 1/2 pk sampai 2 pk", 
+            "Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating", 
+            "Terdapat 24 set per dus untuk Bracket AC Type STD 1.8 m"
+        ],
         "benefits": [
             "Presisi tinggi (meminimalisir getaran mesin)",
             "Bentuk ramping, kekuatan maksimal untuk menopang mesin outdoor",
@@ -80,8 +100,10 @@
             "Sangat kuat karena menggunakan konstruksi yang terbaru double bone, menghasilkan produk yang sangat spesial dalam menyangga outdoor unit"
         ],
         "images": [
-            "../assets/img/Bracket/STD/18mm/Bracket-STD-18-1.jpg"
-        ]
+            "../assets/img/Bracket/STD/18mm/Bracket-STD-18-1.jpg",
+            "../assets/img/Bracket/STD/18mm/Bracket-STD-18-Measurement.png"
+        ],
+        "isBestSeller": false
     },
     {
         "id": 5,
@@ -91,7 +113,12 @@
         "category": "Bracket",
         "type_class": "bracket",
         "description": "Bracket AC Type 2PK Multi adalah penyangga mesin outdoor AC yang dibuat oleh Eterm dari 1.5pk sampai 2 pk dengan ketebalan bahan 1.5mm",
-        "note": "Maksimal pemasangan untuk AC 1.5 pk sampai 2 pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating<br><br>Terdapat 18 set per dus untuk Bracket AC Type 2PK Multi",
+        "notes": [
+            "Maksimal pemasangan untuk AC 1.5 pk sampai 2 pk", 
+            "Sudah dilengkapi dengan dynabolt set", 
+            "Cat finishing powder coating", 
+            "Terdapat 18 set per dus untuk Bracket AC Type 2PK Multi"
+        ],
         "benefits": [
             "Simple (tidak membutukan tempat yang luas)",
             "Sangat kuat karena menggunakan material khusus , konstruksi yang terbaru ,mengghasilkan produk yang sangat special dalam menyangga outdoor unit",
@@ -100,8 +127,10 @@
         ],
         "images": [
             "../assets/img/Bracket/2PKMulti/Bracket-2PK-Multi-1.jpg",
-            "../assets/img/Bracket/2PKMulti/Bracket-2PK-Multi-2.jpg"
-        ]
+            "../assets/img/Bracket/2PKMulti/Bracket-2PK-Multi-2.jpg",
+            "../assets/img/Bracket/2PKMulti/Bracket-2PK-Multi-Measurement.png"
+        ],
+        "isBestSeller": false
     },
     {
         "id": 6,
@@ -111,7 +140,12 @@
         "category": "Bracket",
         "type_class": "bracket",
         "description": "Bracket AC Type ALS Long adalah penyangga mesin outdoor AC dari 2 pk sampai 2.5 pk dengan ketebalan bahan 1.5mm",
-        "note": "Untuk outdoor AC 1.5 pk sampai 2.5 pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating<br><br>Terdapat 14 set per dus untuk Bracket AC Type ALS Long",
+        "notes": [
+            "Untuk outdoor AC 1.5 pk sampai 2.5 pk", 
+            "Sudah dilengkapi dengan dynabolt set",
+            "Cat finishing powder coating",
+            "Terdapat 14 set per dus untuk Bracket AC Type ALS Long"
+        ],
         "benefits": [
             "Bentuk simpel dan kokoh",
             "Sangat kuat karena menggunakan konstruksi yang terbaru double bone, menghasilkan produk yang sangat spesial dalam menyangga outdoor unit",
@@ -120,8 +154,10 @@
         "images": [
             "../assets/img/Bracket/ALSLong/Bracket-ALS-Long-1.jpg",
             "../assets/img/Bracket/ALSLong/Bracket-ALS-Long-2.jpg",
-            "../assets/img/Bracket/ALSLong/Bracket-ALS-Long-3.jpg"
-        ]
+            "../assets/img/Bracket/ALSLong/Bracket-ALS-Long-3.jpg",
+            "../assets/img/Bracket/ALSLong/Bracket-ALS-Long-Measurement.png"
+        ],
+        "isBestSeller": false
     },
     {
         "id": 7,
@@ -130,8 +166,13 @@
         "product_name": "Bracket AC Type 5PK",
         "category": "Bracket",
         "type_class": "bracket",
-        "description": "BBracket AC Type 5PK adalah penyangga mesin outdoor AC dari 2 pk Sampai 5 pk dengan ketebalan bahan 2mm",
-        "note": "Maksimal pemasangan untuk AC 2.5 pk sampai 5 pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating<br><br>Terdapat 12 set per dus untuk Bracket AC Type 5PK",
+        "description": "Bracket AC Type 5PK adalah penyangga mesin outdoor AC dari 2 pk Sampai 5 pk dengan ketebalan bahan 2mm",
+        "notes": [
+            "Maksimal pemasangan untuk AC 2.5 pk sampai 5 pk", 
+            "Sudah dilengkapi dengan dynabolt set", 
+            "Cat finishing powder coating", 
+            "Terdapat 12 set per dus untuk Bracket AC Type 5PK"
+        ],
         "benefits": [
             "Simple dan powerfull",
             "Sangat kuat karena menggunakan material khusus, konstruksi yang terbaru ,mengghasilkan produk yang sangat special dalam menyangga outdoor unit",
@@ -139,8 +180,10 @@
         ],
         "images": [
             "../assets/img/Bracket/5PK/Bracket-5PK-1.jpg",
-            "../assets/img/Bracket/5PK/Bracket-5PK-2.jpg"
-        ]
+            "../assets/img/Bracket/5PK/Bracket-5PK-2.jpg",
+            "../assets/img/Bracket/5PK/Bracket-5PK-Measurement.png"
+        ],
+        "isBestSeller": false
     },
     {
         "id": 8,
@@ -150,14 +193,19 @@
         "category": "Bracket",
         "type_class": "bracket",
         "description": "Bracket Indoor Mini adalah bracket dengan fungsi sebagai penyangga indoor unit yang universal",
-        "note": "Untuk indoor ½ pk sampai 2.5pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating",
+        "notes": [
+            "Untuk indoor ½ pk sampai 2.5pk", 
+            "Sudah dilengkapi dengan dynabolt set", 
+            "Cat finishing powder coating"
+        ],
         "benefits": [
             "Kuat dan simpel"
         ],
         "images": [
             "../assets/img/Bracket/Indoor/Mini/Bracket-Mini-1.jpg",
             "../assets/img/Bracket/Indoor/Bracket-Mini-Besar.jpg"
-        ]
+        ],
+        "isBestSeller": false
     },
     {
         "id": 9,
@@ -167,7 +215,11 @@
         "category": "Bracket",
         "type_class": "bracket",
         "description": "Bracket Indoor Besar adalah bracket dengan fungsi sebagai penyangga indoor unit yang universal",
-        "note": "Untuk indoor ½ pk sampai 2.5pk<br><br>Sudah dilengkapi dengan dynabolt set<br><br>Cat finishing powder coating",
+        "notes": [
+            "Untuk indoor ½ pk sampai 2.5pk", 
+            "Sudah dilengkapi dengan dynabolt set",
+            "Cat finishing powder coating"
+        ],
         "benefits": [
             "Ukuran lebih besar",
             "Bahan Full tanpa tulang buatan (yang biasa untuk memperkuat bahan yang tipis)"
@@ -175,7 +227,8 @@
         "images": [
             "../assets/img/Bracket/Indoor/Besar/Bracket-Besar-1.jpg",
             "../assets/img/Bracket/Indoor/Bracket-Mini-Besar.jpg"
-        ]
+        ],
+        "isBestSeller": false
     },
     {
         "id": 10,
@@ -185,7 +238,9 @@
         "category": "Dynabolt",
         "type_class": "dynabolt",
         "description": " ",
-        "note": "Dalam satu set lengkap terdiri dari 4 Dynabolt 10mm x 54mm, 4 baut outdoor dan 4 mur beserta 4 buat ring",
+        "notes": [
+            "Dalam satu set lengkap terdiri dari 4 Dynabolt 10mm x 54mm, 4 baut outdoor dan 4 mur beserta 4 buat ring"
+        ],
         "benefits": [
             "Mudah dalam pemasangan",
             "Kuat menopang outdoor unit dari ½ pk sampai 5 pk catatan :( kekuatan tembok juga mempengaruhi kekuatan penopangan)"
@@ -195,7 +250,8 @@
             "../assets/img/Dynabolt/Dynabolt-2.jpg",
             "../assets/img/Dynabolt/Dynabolt-3.jpg",
             "../assets/img/Dynabolt/Dynabolt-4.jpg"
-        ]
+        ],
+        "isBestSeller": true
     },
     {
         "id": 11,
@@ -205,7 +261,9 @@
         "category": "Akrilik",
         "type_class": "akrilik",
         "description": "Penggunaan untuk indoor unit 1/2pk sampai 1.5pk",
-        "note": "Produk ini sudah memiliki izin dari HAKI dengan nomor register IDD000041849",
+        "notes": [
+            "Produk ini sudah memiliki izin dari HAKI dengan nomor register IDD000041849"
+        ],
         "benefits": [
             "Bahan yang di pakai Acrilic , setiap lekukan untuk membelok udara ac  di buat presisi sehingga tujuan udara yang dibelokkan tercapai",
             "Bahan pengait untuk unit indoor terbuat dari bahan kulit , ketika di gantung ke unit indoor tidak mudah bergerak bahkan jatuh",
@@ -220,8 +278,9 @@
             "../assets/img/Akrilik/1PK/Akrilik-AC-1-1.jpg",
             "../assets/img/Akrilik/1PK/Akrilik-AC-1-2.jpg",
             "../assets/img/Akrilik/1PK/Akrilik-AC-1-3.jpg",
-            "../assets/img/Akrilik/1PK/Akrilik-AC-1-4.jpg"
-        ]
+            "../assets/img/Akrilik/1PK/Akrilik-AC-1-Measurement.png"
+        ],
+        "isBestSeller": true
     },
     {
         "id": 12,
@@ -231,7 +290,9 @@
         "category": "Akrilik",
         "type_class": "akrilik",
         "description": "Penggunaan untuk indoor unit 2pk sampai 2.5pk",
-        "note": "Produk ini sudah memiliki izin dari HAKI dengan nomor register IDD000041849",
+        "notes": [
+            "Produk ini sudah memiliki izin dari HAKI dengan nomor register IDD000041849"
+        ],
         "benefits": [
             "Bahan yang di pakai Acrilic , setiap lekukan untuk membelok udara ac  di buat presisi sehingga tujuan udara yang dibelokkan tercapai",
             "Bahan pengait untuk unit indoor terbuat dari bahan kulit , ketika di gantung ke unit indoor tidak mudah bergerak bahkan jatuh",
@@ -245,8 +306,10 @@
         "images": [
             "../assets/img/Akrilik/2PK/Akrilik-AC-2-1.jpg",
             "../assets/img/Akrilik/2PK/Akrilik-AC-2-2.jpg",
-            "../assets/img/Akrilik/2PK/Akrilik-AC-2-3.jpg"
-        ]
+            "../assets/img/Akrilik/2PK/Akrilik-AC-2-3.jpg",
+            "../assets/img/Akrilik/2PK/Akrilik-AC-2-Measurement.png"
+        ],
+        "isBestSeller": true
     },
     {
         "id": 13,
@@ -256,7 +319,10 @@
         "category": "AC Flush",
         "type_class": "ac-flush",
         "description": "Fungsi AC FLUSH eterm sebagai cairan untuk membersihkan evaporator AC khusus untuk indoor unit yaitu untuk membersihkan kotoran yang mengerak /membandel di evaporator ( evaporator yang berlumut )<br><br>AC FLUSH mempunyai fungsi yang sama dengan pembersih evaporator yang lain yang beredar di pasaran, namun mempunyai perbedaan dari bahan dasar yang umumnya dibuat dari bahan dasar asam. Sifat asam akan mengikis permukaan evaporator yang dalam jangka pendek( langsung) membuat lapisan pelindung langsung hilang, jangka menengah membuat lapisan evaporator menjadi tipis dan keropos waktu pembersihan akan membuat sirip evaporator menjadi tidur ketika di semprot pakai jet cleaner s/d panjang akan membuat evaporator kehilangan fungsi utamanya karena tidak mampu menjalankan  fungsi sebagai heat exchange  dan bahan semakin lama akan  tipis/habis dan bisa menyebabkan kebocoran freon. Dengan menggunakan ac flush eterm semua kekhawatiran di atas dapat diatasi<br><br>AC FLUSH ETERM terbuat dari bahan dasar yang bersifat BASA, kebalikan dari pembersih yang beredar di pasaran yang bersifat asam.",
-        "note": "Evaporator adalah penukar udara dalam suatu ruangan, dimana saringan filter evaporator tidak bisa menyaring semua partikel yang kecil, yang akhirnya dapat masuk dan menempel di evaporator dan lama kelamaan akan mengerak<br><br>Pemakaian harus sesuai dengan petunjuk label.<br><br>Kemasan tersedia untuk 1 liter dan 5 liter",
+        "notes": [
+            "Evaporator adalah penukar udara dalam suatu ruangan, dimana saringan filter evaporator tidak bisa menyaring semua partikel yang kecil, yang akhirnya dapat masuk dan menempel di evaporator dan lama kelamaan akan mengerak<br><br>Pemakaian harus sesuai dengan petunjuk label.",
+            "Kemasan tersedia untuk 1 liter dan 5 liter"
+        ],
         "benefits": [
             "Membersikan evaporator tanpa merusak lapisan evaporator",
             "Aman terhadap kulit",
@@ -272,36 +338,60 @@
             "../assets/img/ACFlush/AC-Flush-Pink-Eterm.png",
             "../assets/img/ACFlush/AC-Flush-Yellow-Eterm.png",
             "../assets/img/ACFlush/AC-Flush-White-Eterm.png"
-        ]
+        ],
+        "isBestSeller": true
     },
     {
         "id": 14,
-        "title_seo": "Nepal / Nut AC (1/4 - 3/4) - Eterm",
-        "desc_seo": "Nepal untuk pemasangan pipa maupun penyambung pipa terbuat dari yang sangat baik dan kuat", 
-        "product_name": "Nepal / Nut AC (1/4 - 3/4)",
+        "title_seo": "Nut AC (1/4 - 3/4) - Eterm",
+        "desc_seo": "Nut untuk pemasangan pipa terbuat dari yang sangat baik dan kuat", 
+        "product_name": "Nut AC (1/4 - 3/4)",
         "category": "Nepal/Nut",
         "type_class": "nepal-nut",
-        "description": "Nepal untuk pemasangan pipa maupun penyambung pipa terbuat dari yang sangat baik dan kuat",
-        "note": "Std semua ukuran AC",
+        "description": "Nut untuk pemasangan pipa terbuat dari yang sangat baik dan kuat",
+        "notes": [
+            "Std semua ukuran AC"
+        ],
         "benefits": [
             "Bahan sangat tebal, sangat kuat"
         ],
         "images": [
-            "../assets/img/Nepal/Nepat-Nut-1.jpg",
-            "../assets/img/Nepal/Nepat-Nut-3.jpg",
-            "../assets/img/Nepal/Nepat-Nut-4.jpg",
-            "../assets/img/Nepal/Nepat-Nut-5.jpg"
-        ]
+            "../assets/img/NepalNut/Nut/Nut-1.jpg",
+            "../assets/img/NepalNut/Nut/Nut-2.jpg"
+        ],
+        "isBestSeller": false
     },
     {
         "id": 15,
+        "title_seo": "Double Nepal (1/4 - 5/8) - Eterm",
+        "desc_seo": "Double Nepal untuk penyambung pipa terbuat dari yang sangat baik dan kuat", 
+        "product_name": "Double Nepal (1/4 - 5/8)",
+        "category": "Nepal/Nut",
+        "type_class": "nepal-nut",
+        "description": "Double Nepal untuk penyambung pipa terbuat dari yang sangat baik dan kuat",
+        "notes": [
+            "Std semua ukuran AC"
+        ],
+        "benefits": [
+            "Bahan sangat tebal, sangat kuat"
+        ],
+        "images": [
+            "../assets/img/NepalNut/DoubleNepal/Double-Nepal-1.jpg",
+            "../assets/img/NepalNut/DoubleNepal/Double-Nepal-2.jpg"
+        ],
+        "isBestSeller": false
+    },
+    {
+        "id": 16,
         "title_seo": "Pipa AC 1PK (1/4 - 3/8) 30 m - Eterm",
         "desc_seo": "Pipa AC 1PK (1/4 - 3/8) 30 m adalah sebagai pengganti pipa tembaga , bahan aluminium campuran ( tanpa bungkus/ amaflex)", 
         "product_name": "Pipa AC 1PK (1/4 - 3/8) 30 m",
         "category": "Pipa",
         "type_class": "pipa",
         "description": "Pipa AC 1PK (1/4 - 3/8) 30 m adalah sebagai pengganti pipa tembaga , bahan aluminium campuran ( tanpa bungkus/ amaflex)",
-        "note": "Ketebalan pipa ⅜ 0,8mm dan untuk pipa ¼ ketebalan 0,7mm",
+        "notes": [
+            "Ketebalan pipa ⅜ 0,8mm dan untuk pipa ¼ ketebalan 0,7mm"
+        ],
         "benefits": [
             "Mudah dalam flaring",
             "Lentur bisa di bentuk dapat penempatan posisi pipa sehingga kerapian pemasangan Ac dapat memenuhi estetika",
@@ -311,20 +401,22 @@
         ],
         "images": [
             "../assets/img/Pipa/Pipa-1.jpeg"
-        ]
+        ],
+        "isBestSeller": false
     },
     {
-        "id": 16,
+        "id": 17,
         "title_seo": "As Dart 8mm dan 10mm - Eterm",
         "desc_seo": "As Dart dengan panjang 1 meter digunakan untuk pemasangan AC Casset", 
         "product_name": "As Dart 8mm dan 10mm",
         "category": "As Dart",
         "type_class": "as-dart",
         "description": "As Dart dengan panjang 1 meter digunakan untuk pemasangan AC Casset",
-        "note": "",
+        "notes": [],
         "benefits": [],
         "images": [
             "../assets/img/AsDart/AsDart-1.jpg"
-        ]
+        ],
+        "isBestSeller": false
     }
 ]

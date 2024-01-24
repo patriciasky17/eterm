@@ -297,6 +297,7 @@ footer .social-media a .fa-solid{
 .mySwiper2 {
     width: 100%;
     aspect-ratio: 16/9;
+    /* min-width: 450px; */
     border-radius: 10px;
 }
 

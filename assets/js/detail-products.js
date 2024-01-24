@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Fetch and display product data
     function fetchAndDisplayProduct(productId, productName) {
-        fetch('../../assets/data/products.json')
+        fetch('../assets/data/products.json')
             .then(response => response.json())
             .then(products => {
                 const product = products.find(p => p.id == productId || p.product_name == productName);
@@ -48,12 +48,30 @@ document.addEventListener('DOMContentLoaded', function() {
     // Display product details in HTML
     function displayProductDetails(product) {
         document.querySelector('h1.text-h2').textContent = product.product_name;
+
+        document.querySelector('.breadcrumbs p.product-name').textContent = product.product_name;
+
+        document.querySelector('.only-badge span').textContent = product.category;
         if (product.description.length > 0) {
             document.querySelector('.product-description p').innerHTML = product.description;
         }
 
-        if (product.note.length > 0) {
-            document.querySelector('.product-notes p').innerHTML= product.note;
+        const notesList = document.querySelector('.product-notes ul');
+        if (product.notes && Array.isArray(product.notes)) {
+            notesList.innerHTML = ''; // Clear existing list items
+            product.notes.forEach(note => {
+                const listItem = document.createElement('li');
+                listItem.className = 'text-p flex items-start gap-5';
+        
+                const icon = document.createElement('i');
+                icon.className = 'material-icons-round';
+                icon.textContent = 'info';
+        
+                listItem.appendChild(icon);
+                listItem.appendChild(document.createTextNode(note));
+        
+                notesList.appendChild(listItem);
+            });
         }
 
         const swiperWrappers = document.querySelectorAll('.swiper .swiper-wrapper');

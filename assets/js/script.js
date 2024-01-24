@@ -60,13 +60,6 @@ for (i = 0; i < accordion.length; i++) {
     })
 }
 
-// document.querySelectorAll('.product-item').forEach(item => {
-//     item.addEventListener('click', function() {
-//         const productId = this.getAttribute('data-product-id'); // Assuming each product has a 'data-product-id' attribute
-//         window.location.href = `./details-product.html?productId=${productId}`;
-//     });
-// });
-
 function fetchProducts(callback) {
     const url = "../assets/data/products.json";
     fetch(url)
@@ -75,10 +68,21 @@ function fetchProducts(callback) {
         })
         .then(data => {
             const productsContainer = document.getElementById('all-products'); // Assuming you have a container with this ID
-            data.forEach(product => {
-                const productElement = createProductElement(product);
-                productsContainer.appendChild(productElement);
-            });
+            
+            if (window.location.pathname.includes('/index.html')) {
+                const bestSellerProducts = data.filter(product => product.isBestSeller);
+
+                bestSellerProducts.forEach(product => {
+                    const productElement = createProductElement(product);
+                    productsContainer.appendChild(productElement);
+                });
+            }
+            else {
+                data.forEach(product => {
+                    const productElement = createProductElement(product);
+                    productsContainer.appendChild(productElement);
+                });
+            }
 
             if (callback) callback();
         })
@@ -90,9 +94,8 @@ function fetchProducts(callback) {
 function createProductElement(product) {
     const anchor = document.createElement('a');
     const encodedProductName = encodeURIComponent(product.product_name); // Encode the product name to make it URL-safe
-    anchor.href = `./details-product/detail-product.html?id=${product.id}&name=${encodedProductName}`; 
-    anchor.className = `product-item ${product.type_class} md:col-span-4 col-span-12 flex flex-col gap-4 border rounded-lg`;
-    // anchor.dataset.category = product.type_class;
+    anchor.href = `./detail-product.html?id=${product.id}&name=${encodedProductName}`; 
+    anchor.className = `product-item ${product.type_class} md:col-span-4 col-span-12 flex flex-col gap-4 border rounded-lg relative`;
 
     const imageDiv = document.createElement('div');
     imageDiv.className = 'rounded-t-lg overflow-hidden w-100 h-[240px] max-h-[240px] min-h-[240px] object-fill';
@@ -110,15 +113,19 @@ function createProductElement(product) {
     const categoryDiv = document.createElement('div');
     categoryDiv.className = 'categories flex gap-2';
 
-    // const badge = document.createElement('span');
-    // badge.className = 'badge-best-seller text-subtitle font-medium'; // Modify as needed
-    // badge.textContent = 'Best Seller'; // Modify as needed
+    if (product.isBestSeller) {
+        const badge = document.createElement('span');
+        badge.className = 'badge-best-seller text-subtitle font-medium'; // Modify as needed
+        badge.textContent = 'Best Seller'; // Modify as needed
+
+        categoryDiv.appendChild(badge);
+    }
+
 
     const categorySpan = document.createElement('span');
     categorySpan.className = 'badge-primary text-subtitle font-medium'; // Modify as needed
     categorySpan.textContent = product.category;
 
-    // categoryDiv.appendChild(badge);
     categoryDiv.appendChild(categorySpan);
 
     const productName = document.createElement('h3');
@@ -130,6 +137,20 @@ function createProductElement(product) {
 
     anchor.appendChild(imageDiv);
     anchor.appendChild(contentDiv);
+
+    if (product.isBestSeller) {
+        const crownContainer = document.createElement('div');
+        crownContainer.className = 'absolute -top-10 -left-7';
+
+        const crown = document.createElement('img');
+        crown.src = "./assets/svg/crown.svg";
+        crown.className = 'w-20';
+        crown.alt = "Crown";
+
+        crownContainer.appendChild(crown);
+        anchor.appendChild(crownContainer);
+    }
+    
 
     return anchor;
 }
