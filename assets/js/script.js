@@ -69,7 +69,7 @@ function fetchProducts(callback) {
         .then(data => {
             const productsContainer = document.getElementById('all-products'); // Assuming you have a container with this ID
             
-            if (window.location.pathname.includes('/index.html')) {
+            if (window.location.pathname.includes('/')) {
                 const bestSellerProducts = data.filter(product => product.isBestSeller);
 
                 bestSellerProducts.forEach(product => {
