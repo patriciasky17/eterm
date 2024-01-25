@@ -60,7 +60,7 @@ for (i = 0; i < accordion.length; i++) {
     })
 }
 
-function fetchProducts(callback) {
+function fetchProducts(filter, callback) {
     const url = "../assets/data/products.json";
     fetch(url)
         .then(response => {
@@ -69,14 +69,14 @@ function fetchProducts(callback) {
         .then(data => {
             const productsContainer = document.getElementById('all-products'); // Assuming you have a container with this ID
             
-            if (window.location.pathname.includes('/products')){
+            if (filter == "bestSeller"){
                 const bestSellerProducts = data.filter(product => product.isBestSeller);
 
                 bestSellerProducts.forEach(product => {
                     const productElement = createProductElement(product);
                     productsContainer.appendChild(productElement);
                 });
-            } else if (window.location.pathname.includes('/')) {
+            } else if (filter == "all") {
                 data.forEach(product => {
                     const productElement = createProductElement(product);
                     productsContainer.appendChild(productElement);
