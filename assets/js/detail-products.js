@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.breadcrumbs p.product-name').textContent = product.product_name;
 
         document.querySelector('.only-badge span').textContent = product.category;
-        if (product.description.length > 0) {
+        if (product.description.length != 0) {
             document.querySelector('.product-description p').innerHTML = product.description;
         }
 
@@ -90,9 +90,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     listItem.appendChild(img);
                     swiperWrapper.appendChild(listItem);
                 });
-            });
 
+                            
             // Destroy existing Swiper instances if they exist
+            });
             if (window.swiper && window.swiper2) {
                 window.swiper.destroy(true, true);
                 window.swiper2.destroy(true, true);
@@ -100,6 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Reinitialize Swipers
             initializeSwipers();
+
         }
         
 
