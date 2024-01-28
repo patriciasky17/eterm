@@ -47,10 +47,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Display product details in HTML
     function displayProductDetails(product) {
+
+        // Meta Title
+        let titleTag = document.querySelector('title');
+        if (!titleTag) {
+            titleTag = document.createElement('title');
+            document.head.appendChild(titleTag);
+        }
+        titleTag.textContent = product.title_seo;
+    
+        // Update Meta Description
+        let metaDesc = document.querySelector('meta[name="description"]');
+        if (!metaDesc) {
+            metaDesc = document.createElement('meta');
+            metaDesc.setAttribute('name', 'description');
+            document.head.appendChild(metaDesc);
+        }
+        metaDesc.setAttribute('content', product.desc_seo);
+
         document.querySelector('h1.text-h2').textContent = product.product_name;
-
         document.querySelector('.breadcrumbs p.product-name').textContent = product.product_name;
-
         document.querySelector('.only-badge span').textContent = product.category;
         if (product.description.length != 0) {
             document.querySelector('.product-description p').innerHTML = product.description;
@@ -58,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const notesList = document.querySelector('.product-notes ul');
         if (product.notes && Array.isArray(product.notes)) {
-            notesList.innerHTML = ''; // Clear existing list items
+            notesList.innerHTML = ''; 
             product.notes.forEach(note => {
                 const listItem = document.createElement('li');
                 listItem.className = 'text-p flex items-start gap-5';
@@ -91,17 +107,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     swiperWrapper.appendChild(listItem);
                 });
 
-                            
             // Destroy existing Swiper instances if they exist
             });
             if (window.swiper && window.swiper2) {
                 window.swiper.destroy(true, true);
                 window.swiper2.destroy(true, true);
             }
-
-            // Reinitialize Swipers
+            
             initializeSwipers();
-
         }
         
 
@@ -122,17 +135,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 benefitsList.appendChild(listItem);
             });
         }
-        // Add more fields as needed...
-
-        // Update image gallery if applicable
-        
-
-        // Reinitialize Swiper here if necessary
     }
-
-    // Get product ID or name from URL
     const productId = getQueryParam('id');
     const productName = getQueryParam('name');
     fetchAndDisplayProduct(productId);
     displayProductDetails(productId);
+
+
 });
