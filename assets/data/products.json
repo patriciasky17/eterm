@@ -201,7 +201,8 @@
         ],
         "images": [
             "../assets/img/Bracket/Indoor/Mini/Bracket-Mini-1.jpg",
-            "../assets/img/Bracket/Indoor/Bracket-Mini-Besar.jpg"
+            "../assets/img/Bracket/Indoor/Bracket-Mini-Besar.jpg",
+            "../assets/img/Bracket/Indoor/Bracket-Indoor-Besar-Kecil-Ukuran.jpeg"
         ],
         "isBestSeller": false
     },
@@ -222,7 +223,8 @@
         ],
         "images": [
             "../assets/img/Bracket/Indoor/Besar/Bracket-Besar-1.jpg",
-            "../assets/img/Bracket/Indoor/Bracket-Mini-Besar.jpg"
+            "../assets/img/Bracket/Indoor/Bracket-Mini-Besar.jpg",
+            "../assets/img/Bracket/Indoor/Bracket-Indoor-Besar-Kecil-Ukuran.jpeg"
         ],
         "isBestSeller": false
     },
