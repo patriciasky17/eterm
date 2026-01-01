@@ -76,6 +76,13 @@ function fetchProducts(filter, callback) {
                     const productElement = createProductElement(product);
                     productsContainer.appendChild(productElement);
                 });
+            } else if (filter == "new") {
+                const newProducts = data.filter(product => product.isNew);
+
+                newProducts.forEach(product => {
+                    const productElement = createProductElement(product);
+                    productsContainer.appendChild(productElement);
+                });
             } else if (filter == "all") {
                 data.forEach(product => {
                     const productElement = createProductElement(product);
@@ -120,6 +127,13 @@ function createProductElement(product) {
         categoryDiv.appendChild(badge);
     }
 
+    if (product.isNew) {
+        const badge = document.createElement('span');
+        badge.className = 'badge-new text-subtitle font-medium';
+        badge.textContent = 'New'; 
+        
+        categoryDiv.appendChild(badge);
+    }
 
     const categorySpan = document.createElement('span');
     categorySpan.className = 'badge-primary text-subtitle font-medium'; // Modify as needed

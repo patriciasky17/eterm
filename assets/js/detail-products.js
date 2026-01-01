@@ -72,8 +72,10 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.product-description p').innerHTML = product.description;
         }
 
+        const notesSection = document.querySelector('.product-notes');
         const notesList = document.querySelector('.product-notes ul');
-        if (product.notes && Array.isArray(product.notes)) {
+        if (product.notes && Array.isArray(product.notes) && product.notes.length > 0) {
+            notesSection.style.display = 'block';
             notesList.innerHTML = ''; 
             product.notes.forEach(note => {
                 const listItem = document.createElement('li');
@@ -88,6 +90,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
                 notesList.appendChild(listItem);
             });
+        } else {
+            notesSection.style.display = 'none';
         }
 
         const swiperWrappers = document.querySelectorAll('.swiper .swiper-wrapper');
@@ -117,29 +121,31 @@ document.addEventListener('DOMContentLoaded', function() {
             initializeSwipers();
         }
         
-
+        const benefitsSection = document.querySelector('.product-strength');
         const benefitsList = document.querySelector('.product-strength ul');
-        if (product.benefits && Array.isArray(product.benefits)) {
+
+        if (product.benefits && Array.isArray(product.benefits) && product.benefits.length > 0) {
+            benefitsSection.style.display = 'block';
             benefitsList.innerHTML = ''; // Clear existing list items
             product.benefits.forEach(benefit => {
                 const listItem = document.createElement('li');
                 listItem.className = 'text-p flex items-start gap-5';
-        
+
                 const icon = document.createElement('i');
                 icon.className = 'material-icons-round';
                 icon.textContent = 'done';
-        
+
                 listItem.appendChild(icon);
                 listItem.appendChild(document.createTextNode(benefit));
-        
+
                 benefitsList.appendChild(listItem);
             });
+        } else {
+            benefitsSection.style.display = 'none';
         }
     }
     const productId = getQueryParam('id');
     const productName = getQueryParam('name');
     fetchAndDisplayProduct(productId);
     displayProductDetails(productId);
-
-
 });
